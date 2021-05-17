@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EMR>
+	<Client>
+		<Insurance_ID>1120</Insurance_ID>
+		<Policy_Start>20/03/2019</Policy_Start>
+		<Policy_End>01/09/2021</Policy_End>
+		<Category>GroupA</Category>
+		<Policy_Duration>6</Policy_Duration>
+		<Premium>360.00</Premium>
+		<Employee_Information p_id="001"> 
+			<FirstName>Ashiat</FirstName>
+			<LastName>Adeogun</LastName>
+			<Gender>Female</Gender>
+			<dob>20/07/1987</dob>
+			<Age>30</Age>
+			<Weight>67.09</Weight>
+			<City>Aalborg</City>
+			<Address>10,fegersundvej</Address>
+			<Phone_no>498769</Phone_no>
+			<Medical_History>
+				<last_consultation>20/11/2021</last_consultation>
+				<Surgries>Optician</Surgries>
+				<Consultations>None</Consultations>
+				<Immunization_status>Active</Immunization_status>
+				<Diseases> 
+				     <Diabets>Yes</Diabets>
+					 <HeartDisease>No</HeartDisease>
+					 <Asthma>No</Asthma>
+					 <Arthritis>Yes</Arthritis>
+				</Diseases>
+				<Allergies>
+					<Pet_Allegy>Yes</Pet_Allegy>
+					<Drug_Allegy>no</Drug_Allegy>
+					<Food_Allegy>no</Food_Allegy>
+				</Allergies>
+			</Medical_History>
+		</Employee_Information>
+		<Payments>
+			<Transaction_id>"21"</Transaction_id>
+			<Due_Date> 01/04/2021</Due_Date>
+			<Paid_on_Time>Yes</Paid_on_Time>
+			<Payment_Method>Creditcard</Payment_Method>
+			<PaymentFirstName>Ashiat</PaymentFirstName>
+			<PaymentLastName>Adeogun</PaymentLastName>
+			<Payment_Date>01/03/2021</Payment_Date>
+		</Payments>	
+		<Claims>
+			<Claim>
+				<EmpStatus>Active</EmpStatus>
+				<Hospital_name>Agnes Hospital</Hospital_name>
+				<Date_Of_Admission>23/02/2021</Date_Of_Admission>
+				<Date_Of_Discharge>23/02/2021</Date_Of_Discharge>
+				<Bills>
+					<Bill_name type="consultations">600</Bill_name>
+					<Bill_name type="Medicalprescription">250</Bill_name>
+					<Bill_name type="Dentist">1000</Bill_name>
+					<Bill_name type="specialist">0</Bill_name>
+					<Bill_name type="laboratry_test">100</Bill_name>
+					<Bill_name type="Surgries">0</Bill_name>
+				</Bills>
+			</Claim>
+		</Claims>
+	</Client>
+	<Client>
+		<Insurance_ID>1121</Insurance_ID>
+		<Policy_Start>12/06/2019</Policy_Start>
+		<Policy_End>30/12/2022</Policy_End>
+		<Category>GroupB</Category>
+		<Policy_Duration>24</Policy_Duration>
+		<Premium>420.00</Premium>
+		<Employee_Information p_id="002"> 
+			<FirstName>Bola</FirstName>
+			<LastName>Tola</LastName>
+			<Gender>Male</Gender>
+			<dob>20/07/1984</dob>
+			<Age>37</Age>
+			<Weight>85.09</Weight>
+			<City>Århus</City>
+			<Address>05,bolanle street</Address>
+			<Phone_no>090234509</Phone_no>
+			<Medical_History>
+				<last_consultation>23/01/2021</last_consultation>
+				<Surgries>Cancer</Surgries>
+				<Consultations>Specialists</Consultations>
+				<Immunization_status>Active</Immunization_status>
+				<Diseases> 
+				     <Diabets>Yes</Diabets>
+					 <HeartDisease>No</HeartDisease>
+					 <Asthma>No</Asthma>
+					 <Arthritis>Yes</Arthritis>
+				</Diseases>
+				<Allergies>
+				    <Pet_Allegy>no</Pet_Allegy>
+				    <Drug_Allegy>no</Drug_Allegy>
+				    <Food_Allegy>Yes</Food_Allegy>
+				</Allergies>
+			</Medical_History>
+		</Employee_Information>
+		<Payments>
+			<Transaction_id>"23"</Transaction_id>
+			<Due_Date> 01/12/2020</Due_Date>
+			<Paid_on_Time>No</Paid_on_Time>
+			<Payment_Method>Creditcard</Payment_Method>
+			<PaymentFirstName>Bola</PaymentFirstName>
+			<PaymentLastName>Tola</PaymentLastName>
+			<Payment_Date>30/12/2020</Payment_Date>
+		</Payments>	
+		<Claims>
+			<Claim>
+				<EmpStatus>Active</EmpStatus>
+				<Hospital_name>NEO Hospital</Hospital_name>
+				<Date_Of_Admission>23/01/2021</Date_Of_Admission>
+				<Date_Of_Discharge>23/01/2021</Date_Of_Discharge>
+				<Bills>
+					<Bill_name type="consultations">800</Bill_name>
+					<Bill_name type="Medicalprescription">250</Bill_name>
+					<Bill_name type="Dentist">1000</Bill_name>
+					<Bill_name type="specialist">0</Bill_name>
+					<Bill_name type="laboratry_test">100</Bill_name>
+					<Bill_name type="Surgries">0</Bill_name>
+				</Bills>
+			</Claim>
+			<Claim>
+				<EmpStatus>Active</EmpStatus>
+				<Hospital_name>Hospital Government</Hospital_name>
+				<Date_Of_Admission>15/05/2020</Date_Of_Admission>
+				<Date_Of_Discharge>15/05/2020</Date_Of_Discharge>
+				<Bills>
+					<Bill_name type="consultations">100</Bill_name>
+					<Bill_name type="Medicalprescription">250</Bill_name>
+					<Bill_name type="Dentist">0</Bill_name>
+					<Bill_name type="specialist">0</Bill_name>
+					<Bill_name type="laboratry_test">0</Bill_name>
+					<Bill_name type="Surgries">0</Bill_name>
+				</Bills>
+			</Claim>
+		</Claims>
+	</Client>
+	<Client>
+		<Insurance_ID>1122</Insurance_ID>
+		<Policy_Start>20/03/2017</Policy_Start>
+		<Policy_End>01/12/2022</Policy_End>
+		<Category>GroupA</Category>
+		<Policy_Duration>6</Policy_Duration>
+		<Premium>360.00</Premium>
+		<Employee_Information p_id="003"> 
+			<FirstName>George</FirstName>
+			<LastName>Mathew</LastName>
+			<Gender>Male</Gender>
+			<dob>20/07/1984</dob>
+			<Age>40</Age>
+			<Weight>67.09</Weight>
+			<City>Fredick</City>
+			<Address>14,SUNDAYstreet</Address>
+			<Phone_no>498769</Phone_no>
+			<Medical_History>
+				<last_consultation>No</last_consultation>
+				<Surgries>BreastCancer</Surgries>
+				<Consultations>EarNoseThroat</Consultations>
+				<Immunization_status>Active</Immunization_status>
+				<Diseases> 
+				     <Diabets>Yes</Diabets>
+					 <HeartDisease>No</HeartDisease>
+					 <Asthma>No</Asthma>
+					 <Arthritis>Yes</Arthritis>
+				</Diseases>
+				<Allergies> 
+				    <Pet_Allegy>Yes</Pet_Allegy>
+				    <Drug_Allegy>no</Drug_Allegy>
+				    <Food_Allegy>no</Food_Allegy>
+				</Allergies>
+			</Medical_History>
+		</Employee_Information>
+		<Payments>
+			<Transaction_id>"234"</Transaction_id>
+			<Due_Date> 01/12/2020</Due_Date>
+			<Paid_on_Time>No</Paid_on_Time>
+			<Payment_Method>Creditcard</Payment_Method>
+			<PaymentFirstName>George</PaymentFirstName>
+			<PaymentLastName>Mathew</PaymentLastName>
+			<Payment_Date>01/12/2020</Payment_Date>
+		</Payments>	
+		<Claims>
+			<Claim></Claim>
+		</Claims>
+	</Client>
+	<Client>
+		<Insurance_ID>1123</Insurance_ID>
+		<Policy_Start>20/06/2005</Policy_Start>
+		<Policy_End>23/10/2022</Policy_End>
+		<Category>GroupA</Category>
+		<Policy_Duration>12</Policy_Duration>
+		<Premium>400.00</Premium>
+		<Employee_Information p_id="004"> 
+			<FirstName>Semase</FirstName>
+			<LastName>Balogun</LastName>
+			<Gender>Male</Gender>
+			<dob>20/07/1996</dob>
+			<Age>25</Age>
+			<Weight>60.09</Weight>
+			<City>Aalborg</City>
+			<Address>11,steven</Address>
+			<Phone_no>090888989</Phone_no>
+			<Medical_History>
+				<last_consultation>20/11/2020</last_consultation>
+				<Surgries>None</Surgries>
+				<Consultations>Ophthalmologists</Consultations>
+				<Immunization_status>Active</Immunization_status>
+				<Diseases> 
+				     <Diabets>Yes</Diabets>
+					 <HeartDisease>No</HeartDisease>
+					 <Asthma>No</Asthma>
+					 <Arthritis>Yes</Arthritis>
+				</Diseases>
+				<Allergies>  
+				     <Pet_Allegy>no</Pet_Allegy>
+				     <Drug_Allegy>no</Drug_Allegy>
+				     <Food_Allegy>ye</Food_Allegy>
+				</Allergies>
+			</Medical_History>
+		</Employee_Information>
+		<Payments>
+			<Transaction_id>"24"</Transaction_id>
+			<Due_Date> 01/04/2021</Due_Date>
+			<Paid_on_Time>Yes</Paid_on_Time>
+			<Payment_Method>Creditcard</Payment_Method>
+			<PaymentFirstName>Semase</PaymentFirstName>
+			<PaymentLastName>Balogun</PaymentLastName>
+			<Payment_Date>28/03/2021</Payment_Date>
+		</Payments>	
+		<Claims>
+			<Claim>
+				<EmpStatus>Active</EmpStatus>
+				<Hospital_name>Hope Hospital</Hospital_name>
+				<Date_Of_Admission>20/11/2020</Date_Of_Admission>
+				<Date_Of_Discharge>20/11/2020</Date_Of_Discharge>
+				<Bills>
+					<Bill_name type="consultations">0</Bill_name>
+					<Bill_name type="Medicalprescription">0</Bill_name>
+					<Bill_name type="Dentist">1000</Bill_name>
+					<Bill_name type="specialist">0</Bill_name>
+					<Bill_name type="laboratry_test">100</Bill_name>
+					<Bill_name type="Surgries">0</Bill_name>
+				</Bills>
+			</Claim>
+		</Claims>
+	</Client>
+	<Client>
+		<Insurance_ID>1124</Insurance_ID>
+		<Policy_Start>20/06/2005</Policy_Start>
+		<Policy_End>10/10/2021</Policy_End>
+		<Category>GroupB</Category>
+		<Policy_Duration>12</Policy_Duration>
+		<Premium>340.00</Premium>
+		<Employee_Information p_id="005"> 
+			<FirstName>Sunita</FirstName>
+			<LastName>Pandey</LastName>
+			<Gender>Female</Gender>
+			<dob>20/07/1985</dob>
+			<Age>38</Age>
+			<Weight>77.09</Weight>
+			<City>Billur</City>
+			<Address>02,tellybally</Address>
+			<Phone_no>000089098</Phone_no>
+			<Medical_History>
+				<last_consultation>23/07/2020</last_consultation>
+				<Surgries>BreastCancer</Surgries>
+				<Consultations>Specialists</Consultations>
+				<Immunization_status>Active</Immunization_status>
+				<Diseases> 
+				     <Diabets>No</Diabets>
+					 <HeartDisease>No</HeartDisease>
+					 <Asthma>No</Asthma>
+					 <Arthritis>Yes</Arthritis>
+				</Diseases>
+				<Allergies> 
+				  <Pet_Allegy>Yes</Pet_Allegy>
+				  <Drug_Allegy>yes</Drug_Allegy>
+				   <Food_Allegy>no</Food_Allegy>
+				</Allergies>
+			</Medical_History>
+		</Employee_Information>
+		<Payments>
+			<Transaction_id>"26"</Transaction_id>
+			<Due_Date> 23/10/2020</Due_Date>
+			<Paid_on_Time>Yes</Paid_on_Time>
+			<Payment_Method>Creditcard</Payment_Method>
+			<PaymentFirstName>Sunita</PaymentFirstName>
+			<PaymentLastName>Pandey</PaymentLastName>
+			<Payment_Date>10/10/2020</Payment_Date>
+		</Payments>	
+		<Claims>
+			<Claim>
+				<EmpStatus>Active</EmpStatus>
+				<Hospital_name>Wally Hospital</Hospital_name>
+				<Date_Of_Admission>23/07/2019</Date_Of_Admission>
+				<Date_Of_Discharge>23/07/2019</Date_Of_Discharge>
+				<Bills>
+					<Bill_name type="consultations">100</Bill_name>
+					<Bill_name type="Medicalprescription">200</Bill_name>
+					<Bill_name type="Dentist">1000</Bill_name>
+					<Bill_name type="specialist">0</Bill_name>
+					<Bill_name type="laboratry_test">0</Bill_name>
+					<Bill_name type="Surgries">0</Bill_name>
+				</Bills>
+			</Claim>
+		</Claims>
+	</Client>
+	<Client>
+		<Insurance_ID>1125</Insurance_ID>
+		<Policy_Start>20/03/2019</Policy_Start>
+		<Policy_End>01/06/2021</Policy_End>
+		<Category>GroupB</Category>
+		<Policy_Duration>6</Policy_Duration>
+		<Premium>300.00</Premium>
+		<Employee_Information p_id="006"> 
+			<FirstName>Sodipo</FirstName>
+			<LastName>James</LastName>
+			<Gender>Male</Gender>
+			<dob>20/07/1987</dob>
+			<Age>30</Age>
+			<Weight>67.09</Weight>
+			<City>Copenhagen</City>
+			<Address>106,gagersundvej</Address>
+			<Phone_no>498769</Phone_no>
+			<Medical_History>
+				<last_consultation>None</last_consultation>
+				<Surgries>CervicalCancer</Surgries>
+				<Consultations>Dentist</Consultations>
+				<Immunization_status>Active</Immunization_status>
+				<Diseases> 
+				     <Diabets>Yes</Diabets>
+					 <HeartDisease>No</HeartDisease>
+					 <Asthma>Yes</Asthma>
+					 <Arthritis>No</Arthritis>
+				</Diseases>
+				<Allergies>
+				   <Pet_Allegy>Yes</Pet_Allegy>
+				   <Drug_Allegy>no</Drug_Allegy>
+				   <Food_Allegy>no</Food_Allegy>
+				</Allergies>
+			</Medical_History>
+		</Employee_Information>
+		<Payments>
+			<Transaction_id>"45"</Transaction_id>
+			<Due_Date> 01/12/2020</Due_Date>
+			<Paid_on_Time>No</Paid_on_Time>
+			<Payment_Method>Creditcard</Payment_Method>
+			<PaymentFirstName>Sodipo</PaymentFirstName>
+			<PaymentLastName>James</PaymentLastName>
+			<Payment_Date>01/12/2020</Payment_Date>
+		</Payments>	
+		<Claims></Claims>
+	</Client>
+	<Client>
+	<Insurance_ID>1126</Insurance_ID>
+		<Policy_Start>20/03/2014</Policy_Start>
+		<Policy_End>23/10/2023</Policy_End>
+		<Category>GroupA</Category>
+		<Policy_Duration>12</Policy_Duration>
+		<Premium>420.00</Premium>
+		<Employee_Information p_id="007"> 
+			<FirstName>Tinuoluwa</FirstName>
+			<LastName>Balogun</LastName>
+			<Gender>Female</Gender>
+			<dob>20/07/1985</dob>
+			<Age>36</Age>
+			<Weight>67.09</Weight>
+			<City>Aalborg</City>
+			<Address>23,koladapo</Address>
+			<Phone_no>498769</Phone_no>
+			<Medical_History>
+				<last_consultation>23/10/2020</last_consultation>
+				<Surgries>None</Surgries>
+				<Consultations>Optician</Consultations>
+				<Immunization_status>Active</Immunization_status>
+				<Diseases> 
+				     <Diabets>No</Diabets>
+					 <HeartDisease>No</HeartDisease>
+					 <Asthma>Yes</Asthma>
+					 <Arthritis>No</Arthritis>
+				</Diseases>
+				<Allergies>
+				    <Pet_Allegy>Yes</Pet_Allegy>
+				    <Drug_Allegy>no</Drug_Allegy>
+				    <Food_Allegy>no</Food_Allegy>
+				</Allergies>
+			</Medical_History>
+		</Employee_Information>
+		<Payments>
+			<Transaction_id>"234"</Transaction_id>
+			<Due_Date> 23/10/2021</Due_Date>
+			<Paid_on_Time>Yes</Paid_on_Time>
+			<Payment_Method>Creditcard</Payment_Method>
+			<PaymentFirstName>Tinuoluwa</PaymentFirstName>
+			<PaymentLastName>Balogun</PaymentLastName>
+			<Payment_Date>23/10/2020</Payment_Date>
+		</Payments>	
+		<Claims>
+			<Claim>
+				<EmpStatus>Active</EmpStatus>
+				<Hospital_name>Agnes Hospital</Hospital_name>
+				<Date_Of_Admission>23/10/2020</Date_Of_Admission>
+				<Date_Of_Discharge>23/10/2020</Date_Of_Discharge>
+				<Bills>
+					<Bill_name type="consultations">0</Bill_name>
+					<Bill_name type="Medicalprescription">250</Bill_name>
+					<Bill_name type="Dentist">500</Bill_name>
+					<Bill_name type="specialist">300</Bill_name>
+					<Bill_name type="laboratry_test">100</Bill_name>
+					<Bill_name type="Surgries">0</Bill_name>
+				</Bills>
+			</Claim>
+		</Claims>
+	</Client>
+	<Client>
+		<Insurance_ID>1127</Insurance_ID>
+		<Policy_Start>20/03/2019</Policy_Start>
+		<Policy_End>01/04/2022</Policy_End>
+		<Category>GroupA</Category>
+		<Policy_Duration>12</Policy_Duration>
+		<Premium>360.00</Premium>
+		<Employee_Information p_id="008"> 
+			<FirstName>Andrew</FirstName>
+			<LastName>Mathew</LastName>
+			<Gender>Male</Gender>
+			<dob>20/07/1982</dob>
+			<Age>43</Age>
+			<Weight>75.09</Weight>
+			<City>Aalborg</City>
+			<Address>10,sundajvej</Address>
+			<Phone_no>0090887</Phone_no>
+			<Medical_History>
+				<last_consultation>23/01/2021</last_consultation>
+				<Surgries>Otolaryngology</Surgries>
+				<Consultations>Optician</Consultations>
+				<Immunization_status>Active</Immunization_status>
+				<Diseases> 
+				     <Diabets>Yes</Diabets>
+					 <HeartDisease>No</HeartDisease>
+					 <Asthma>No</Asthma>
+					 <Arthritis>No</Arthritis>
+				</Diseases>
+				<Allergies>
+				   <Pet_Allegy>Yes</Pet_Allegy>
+				   <Drug_Allegy>no</Drug_Allegy>
+				   <Food_Allegy>no</Food_Allegy>
+				</Allergies>
+			</Medical_History>
+		</Employee_Information>
+		<Payments>
+			<Transaction_id>"210"</Transaction_id>
+			<Due_Date> 01/07/2021</Due_Date>
+			<Paid_on_Time>Yes</Paid_on_Time>
+			<Payment_Method>Creditcard</Payment_Method>
+			<PaymentFirstName>Mathew</PaymentFirstName>
+			<PaymentLastName>Andrew</PaymentLastName>
+			<Payment_Date>01/04/2021</Payment_Date>
+		</Payments>	
+		<Claims>
+			<Claim>
+				<EmpStatus>Active</EmpStatus>
+				<Hospital_name>Neo Hospital</Hospital_name>
+				<Date_Of_Admission>23/01/2021</Date_Of_Admission>
+				<Date_Of_Discharge>23/01/2021</Date_Of_Discharge>
+				<Bills>
+					<Bill_name type="consultations">300</Bill_name>
+					<Bill_name type="Medicalprescription">250</Bill_name>
+					<Bill_name type="Dentist">0</Bill_name>
+					<Bill_name type="specialist">200</Bill_name>
+					<Bill_name type="laboratry_test">200</Bill_name>
+					<Bill_name type="Surgries">0</Bill_name>
+				</Bills>
+			</Claim>
+		</Claims>
+	</Client>
+	<Client>
+	<Insurance_ID>1128</Insurance_ID>
+		<Policy_Start>20/03/2014</Policy_Start>
+		<Policy_End>01/06/2021</Policy_End>
+		<Category>GroupB</Category>
+		<Policy_Duration>6</Policy_Duration>
+		<Premium>340.00</Premium>
+		<Employee_Information p_id="009"> 
+			<FirstName>Agnes</FirstName>
+			<LastName>Israel</LastName>
+			<Gender>Female</Gender>
+			<dob>20/07/1987</dob>
+			<Age>30</Age>
+			<Weight>85.09</Weight>
+			<City>Aalborg</City>
+			<Address>86,marksundvej</Address>
+			<Phone_no>498769</Phone_no>
+			<Medical_History>
+				<last_consultation>14/07/2020</last_consultation>
+				<Surgries>Fallopian Tube Cancer</Surgries>
+				<Consultations>None</Consultations>
+				<Immunization_status>Active</Immunization_status>
+				<Diseases> 
+				     <Diabets>Yes</Diabets>
+					 <HeartDisease>No</HeartDisease>
+					 <Asthma>No</Asthma>
+					 <Arthritis>Yes</Arthritis>
+				</Diseases>
+				<Allergies>
+				    <Pet_Allegy>Yes</Pet_Allegy>
+				   <Drug_Allegy>no</Drug_Allegy>
+				   <Food_Allegy>no</Food_Allegy>
+				</Allergies>
+			</Medical_History>
+		</Employee_Information>
+		<Payments>
+			<Transaction_id>"21"</Transaction_id>
+			<Due_Date> 01/12/2020</Due_Date>
+			<Paid_on_Time>Yes</Paid_on_Time>
+			<Payment_Method>Creditcard</Payment_Method>
+			<PaymentFirstName>Agnes</PaymentFirstName>
+			<PaymentLastName>Israel</PaymentLastName>
+			<Payment_Date>01/11/2020</Payment_Date>
+		</Payments>	
+		<Claims>
+			<Claim>
+				<EmpStatus>Active</EmpStatus>
+				<Hospital_name>Agnes Hospital</Hospital_name>
+				<Date_Of_Admission>14/07/2020</Date_Of_Admission>
+				<Date_Of_Discharge>20/07/2020</Date_Of_Discharge>
+				<Bills>
+					<Bill_name type="consultations">400</Bill_name>
+					<Bill_name type="Medicalprescription">450</Bill_name>
+					<Bill_name type="Dentist">0</Bill_name>
+					<Bill_name type="specialist">0</Bill_name>
+					<Bill_name type="laboratry_test">100</Bill_name>
+					<Bill_name type="Surgries">500</Bill_name>
+				</Bills>
+			</Claim>
+		</Claims>
+	</Client>
+	<Client>
+		<Insurance_ID>1129</Insurance_ID>
+		<Policy_Start>20/03/2014</Policy_Start>
+		<Policy_End>01/06/2021</Policy_End>
+		<Category>GroupB</Category>
+		<Policy_Duration>6</Policy_Duration>
+		<Premium>340.00</Premium>
+		<Employee_Information p_id="0010"> 
+			<FirstName>Daniel</FirstName>
+			<LastName>Israel</LastName>
+			<Gender>Male</Gender>
+			<dob>20/07/1987</dob>
+			<Age>30</Age>
+			<Weight>67.09</Weight>
+			<City>Aalborg</City>
+			<Address>34,yulsundvej</Address>
+			<Phone_no>498769</Phone_no>
+			<Medical_History>
+				<last_consultation>14/01/2021</last_consultation>
+				<Surgries>BreastCancer</Surgries>
+				<Consultations>Optician</Consultations>
+				<Immunization_status>Active</Immunization_status>
+				<Diseases> 
+				     <Diabets>No</Diabets>
+					 <HeartDisease>Yes</HeartDisease>
+					 <Asthma>No</Asthma>
+					 <Arthritis>Yes</Arthritis>
+				</Diseases>
+				<Allergies>
+				    <Pet_Allegy>Yes</Pet_Allegy>
+				   <Drug_Allegy>no</Drug_Allegy>
+				   <Food_Allegy>no</Food_Allegy>
+				</Allergies>
+			</Medical_History>
+		</Employee_Information>
+		<Payments>
+			<Transaction_id>"219"</Transaction_id>
+			<Due_Date> 01/12/2020</Due_Date>
+			<Paid_on_Time>Yes</Paid_on_Time>
+			<Payment_Method>Creditcard</Payment_Method>
+			<PaymentFirstName>Daniel</PaymentFirstName>
+			<PaymentLastName>Israel</PaymentLastName>
+			<Payment_Date>31/12/2020</Payment_Date>
+		</Payments>	
+		<Claims>
+			<Claim>
+				<EmpStatus>Active</EmpStatus>
+				<Hospital_name>Gorvernment Hospital</Hospital_name>
+				<Date_Of_Admission>14/01/2021</Date_Of_Admission>
+				<Date_Of_Discharge>14/01/2021</Date_Of_Discharge>
+				<Bills>
+					<Bill_name type="consultations">400</Bill_name>
+					<Bill_name type="Medicalprescription">250</Bill_name>
+					<Bill_name type="Dentist">0</Bill_name>
+					<Bill_name type="specialist">0</Bill_name>
+					<Bill_name type="laboratry_test">100</Bill_name>
+					<Bill_name type="Surgries">20000</Bill_name>
+				</Bills>
+			</Claim>
+		</Claims>
+	</Client>
+	<Client>
+		<Insurance_ID>1130</Insurance_ID>
+		<Policy_Start>20/03/2019</Policy_Start>
+		<Policy_End>12/12/2021</Policy_End>
+		<Category>GroupA</Category>
+		<Policy_Duration>12</Policy_Duration>
+		<Premium>300.00</Premium>
+		<Employee_Information p_id="0011"> 
+			<FirstName>Wanu</FirstName>
+			<LastName>Pandey</LastName>
+			<Gender>Male</Gender>
+			<dob>20/07/1987</dob>
+			<Age>30</Age>
+			<Weight>67.09</Weight>
+			<City>Århus</City>
+			<Address>23,søgade</Address>
+			<Phone_no>498769</Phone_no>
+			<Medical_History>
+				<last_consultation>None</last_consultation>
+				<Surgries>BreastCancer</Surgries>
+				<Consultations>Optician</Consultations>
+				<Immunization_status>Active</Immunization_status>
+				<Diseases> 
+				     <Diabets>Yes</Diabets>
+					 <HeartDisease>No</HeartDisease>
+					 <Asthma>No</Asthma>
+					 <Arthritis>Yes</Arthritis>
+				</Diseases>
+				<Allergies>
+				   <Pet_Allegy>Yes</Pet_Allegy>
+				   <Drug_Allegy>no</Drug_Allegy>
+				   <Food_Allegy>no</Food_Allegy>
+				</Allergies>
+			</Medical_History>
+		</Employee_Information>
+		<Payments>
+			<Transaction_id>"45"</Transaction_id>
+			<Due_Date> 12/12/2020</Due_Date>
+			<Paid_on_Time>No</Paid_on_Time>
+			<Payment_Method>Creditcard</Payment_Method>
+			<PaymentFirstName>Wanu</PaymentFirstName>
+			<PaymentLastName>Pandey</PaymentLastName>
+			<Payment_Date>11/12/2020</Payment_Date>
+		</Payments>	
+		<Claims></Claims>
+	</Client>
+</EMR>
+

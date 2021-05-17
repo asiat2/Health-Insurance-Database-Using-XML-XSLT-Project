@@ -1,0 +1,69 @@
+{
+	"$schema": "http://json-schema.org/schema#",
+	"$id": "http://yourdomain.com/schemas/myschema.json",
+	"title": "Employee_Information",
+	"description": "List of EMR",
+	"type": "object",
+	"properties": {
+		"EMR": {
+			"description": "List of Electronic medical record",
+			"type": "object",
+			"properties": {
+				"Client": {
+					"description": "List Of Client",
+					"type": "object",
+					"properties": {
+						"Insurance_ID": {
+							"description": "Insurance_ID",
+							"type": "integer"
+						},
+						"Policy_End": {
+							"description": "The end of Policy",
+							"type": "date"
+						},
+						"Category": {
+							"description": "Category of Insurance",
+							"type": "string"
+						},
+						"Employee_Information": {
+							"description": "Employee_Information",
+							"type": "object",
+							"properties": {
+								"FirstName": {
+									"description": "FirstName of Employee",
+									"type": "string"
+								},
+								"LastName": {
+									"description": "LastName of Employee",
+									"type": "string"
+								},
+								"Gender": {
+									"description": "Gender of Employee",
+									"type": "string"
+								},
+								"Age": {
+									"description": "Age of Employee",
+									"type": "integer"
+								},
+								"Medical_History": {
+									"description": "Medical_history about the Employee",
+									"type": "object",
+									"properties": {
+										"Surgries": {
+											"description": "Surgry history",
+											"type": "string"
+										},
+										"Immunization_status": {
+											"description": "Employee Immunization_status",
+											"type": "string"
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

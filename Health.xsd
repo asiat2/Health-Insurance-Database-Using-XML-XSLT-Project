@@ -1,0 +1,109 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="EMR">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Client" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:short" name="Insurance_ID"/>
+              <xs:element type="xs:string" name="Policy_Start"/>
+              <xs:element type="xs:string" name="Policy_End"/>
+              <xs:element type="xs:string" name="Category"/>
+              <xs:element type="xs:byte" name="Policy_Duration"/>
+              <xs:element type="xs:float" name="Premium"/>
+              <xs:element name="Employee_Information">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="FirstName"/>
+                    <xs:element type="xs:string" name="LastName"/>
+                    <xs:element type="xs:string" name="Gender"/>
+                    <xs:element type="xs:string" name="dob"/>
+                    <xs:element type="xs:byte" name="Age"/>
+                    <xs:element type="xs:float" name="Weight"/>
+                    <xs:element type="xs:string" name="City"/>
+                    <xs:element type="xs:string" name="Address"/>
+                    <xs:element type="xs:int" name="Phone_no"/>
+                    <xs:element name="Medical_History">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="last_consultation"/>
+                          <xs:element type="xs:string" name="Surgries"/>
+                          <xs:element type="xs:string" name="Consultations"/>
+                          <xs:element type="xs:string" name="Immunization_status"/>
+                          <xs:element name="Diseases">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="Diabets"/>
+                                <xs:element type="xs:string" name="HeartDisease"/>
+                                <xs:element type="xs:string" name="Asthma"/>
+                                <xs:element type="xs:string" name="Arthritis"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Allergies">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="Pet_Allegy"/>
+                                <xs:element type="xs:string" name="Drug_Allegy"/>
+                                <xs:element type="xs:string" name="Food_Allegy"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:byte" name="p_id" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Payments">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Transaction_id"/>
+                    <xs:element type="xs:string" name="Due_Date"/>
+                    <xs:element type="xs:string" name="Paid_on_Time"/>
+                    <xs:element type="xs:string" name="Payment_Method"/>
+                    <xs:element type="xs:string" name="PaymentFirstName"/>
+                    <xs:element type="xs:string" name="PaymentLastName"/>
+                    <xs:element type="xs:string" name="Payment_Date"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Claims">
+                <xs:complexType mixed="true">
+                  <xs:sequence>
+                    <xs:element name="Claim" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="EmpStatus" minOccurs="0"/>
+                          <xs:element type="xs:string" name="Hospital_name" minOccurs="0"/>
+                          <xs:element type="xs:string" name="Date_Of_Admission" minOccurs="0"/>
+                          <xs:element type="xs:string" name="Date_Of_Discharge" minOccurs="0"/>
+                          <xs:element name="Bills" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Bill_name" maxOccurs="unbounded" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:short">
+                                        <xs:attribute type="xs:string" name="type" use="optional"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
